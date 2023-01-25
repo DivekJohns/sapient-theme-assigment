@@ -1,0 +1,20 @@
+@keyframes animatetop {
+  from {
+    top: -25px;
+    opacity: 0.5;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.tabl-sub {
+  position: relative;
+  animation: animatetop 0.4s;
+}
+
+.tabl-sub-dis {
+    position: relative;
+    animation: animatetop 0.4s reverse;
+  }
